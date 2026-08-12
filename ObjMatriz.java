@@ -15,6 +15,4 @@ public class ObjMatriz {
     public void setDato(int dato) {
         this.dato = dato;
     }
-    
-
 }
