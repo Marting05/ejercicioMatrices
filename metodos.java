@@ -13,7 +13,6 @@ public class metodos {
             for (int j = 0; j < m.length; j++) {
                 System.out.print(" - "+m[i][j]);
             }
-            System.out.println("-------------------");
         }
     }
  
@@ -25,14 +24,14 @@ public class metodos {
              m[i][j] = o;               
             }
         }
-    return m;
+        return m;
+    }
 
-    public void MostrarMatrizObjetual(int [][] m){
+    public void MostrarMatrizObjetual(ObjMatriz [][] m){
         for (int i = 0; i < m.length; i++) {
             for (int j = 0; j < m.length; j++) {
-                System.out.print(" - "+m[i][j]);
+                System.out.print(" - "+m[i][j].getDato());
             }
-            System.out.println("-------------------");
         }
     }    
 }
